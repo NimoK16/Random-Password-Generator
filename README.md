@@ -20,15 +20,15 @@ string: Contains predefined sets of characters:-
 
 Set up characters into groups:-
 
-Lowercase Letters: string.ascii_lowercase
-Uppercase Letters: string.ascii_uppercase
-Numbers: string.digits
+Lowercase Letters: string.ascii_lowercase                                                                                                                                          
+Uppercase Letters: string.ascii_uppercase                                                                                                                                               
+Numbers: string.digits                                                                                                                                                              
 Symbols: string.punctuation
 
 4. Password Generation 
 
 (a). Create character pools and conditionally add them.                                                                                                                           
-(b). Combine all the selected character types into a single pool.
+(b). Combine all the selected character types into a single pool.                                                                                                             
 (c). If no character type is selected, make sure an error is raised.                                                                                                          
 (d). Use a loop to generate the password by randomly selecting length characters from all_characters.                                                                             
      random.choice ensures the characters are picked randomly.
