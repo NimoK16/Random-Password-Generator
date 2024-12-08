@@ -6,8 +6,8 @@ Allowing user to specify length as well as characters to be used for password ge
 
 2. Importing Libraries
 
-secrets: This library ensures random generation of characters.
-         It provides better randomness, essential for sensitive passwords.
+secrets: This library ensures random generation of characters.                                                                                                                            
+                 It provides better randomness, essential for sensitive passwords.
 
 string: Contains predefined sets of characters:- 
         
@@ -31,12 +31,12 @@ Symbols: string.punctuation
 (b). Combine all the selected character types into a single pool.                                                                                                             
 (c). If no character type is selected, make sure an error is raised.                                                                                                          
 (d). Use a loop to generate the password by randomly selecting length characters from all_characters.                                                                             
-     random.choice ensures the characters are picked randomly.
+          random.choice ensures the characters are picked randomly.
 
 5. User Input
 
-Input prompts the user and accepts input as a string. 
-Logical checks like input(...) == 'y / n' determines if the user wants a specific character type or not.
+Input prompts the user and accepts input as a string.                                                                                                                                   
+Logical checks like input(...) == 'y / n' determines if the user wants a specific character type or not.                                                                                 
 The try/except block handles errors, such as when the user selects no character types.
 
 
