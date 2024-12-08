@@ -27,10 +27,10 @@ Symbols: string.punctuation
 
 4. Password Generation 
 
-(a). Create character pools and conditionally add them.
+(a). Create character pools and conditionally add them.                                                                                                                           
 (b). Combine all the selected character types into a single pool.
-(c). If no character type is selected, make sure an error is raised.
-(d). Use a loop to generate the password by randomly selecting length characters from all_characters. 
+(c). If no character type is selected, make sure an error is raised.                                                                                                          
+(d). Use a loop to generate the password by randomly selecting length characters from all_characters.                                                                             
      random.choice ensures the characters are picked randomly.
 
 5. User Input
