@@ -1,7 +1,7 @@
 # Random-Password-Generator
 1. Our Goal
 
-Creating a password using random characters in order to avoid predictability.
+Creating a password using random characters in order to avoid predictability.                                                                    
 Allowing user to specify length as well as characters to be used for password generation.
 
 2. Importing Libraries
