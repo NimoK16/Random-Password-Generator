@@ -6,8 +6,7 @@ Allowing user to specify length as well as characters to be used for password ge
 
 2. Importing Libraries
 
-secrets: This library ensures random generation of characters.                                                                                                                            
-                 It provides better randomness, essential for sensitive passwords.
+secrets: This library ensures random generation of characters.It provides better randomness, essential for sensitive passwords.
 
 string: Contains predefined sets of characters:- 
         
